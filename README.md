@@ -1,3 +1,21 @@
 # SPPU-2024-FE-FPL-Lab
 SPPU First Year (FE) Fundamentals Of Programming Language (FPL) Lab Assignments (2024 Pattern)
 
+Aledutron Youtube FPL Lab Playlist Link: https://youtube.com/playlist?list=PLlShVH4JA0ouBb_iMZPPNOcfyX2JtPQ5L
+
+| Question No. | Problem Statement | Code Link | Youtube Link |
+|---|---|---|---|
+| 1 | To accept the number and Compute<br><br>a) square root of number, <br><br>b) Square of number, <br><br>c) Cube of number <br><br>d) check for prime, <br><br>e) factorial of number <br><br>f) prime factors. | [Q01.c](Q01.c) | https://www.youtube.com/watch?v=rpDU2Et1ByE&list=PLlShVH4JA0ouBb_iMZPPNOcfyX2JtPQ5L&index=5&pp=iAQB |
+| 2 | To accept from user the number of Fibonacci numbers to be generated and print the Fibonacci series. | [Q02.c](Q02.c) | https://www.youtube.com/watch?v=uQKXGEhtRy4&list=PLlShVH4JA0ouBb_iMZPPNOcfyX2JtPQ5L&index=6&pp=iAQB |
+| 3 | To accept an object mass in kilograms and velocity in meters per second and display itsMomentum. Momentum is calculated as e=mc2 where m is the mass of the object and c is its velocity. | [Q03.c](Q03.c) | https://www.youtube.com/watch?v=CZFSSLdBKGE&list=PLlShVH4JA0ouBb_iMZPPNOcfyX2JtPQ5L&index=2&pp=iAQB |
+| 4 | In array do the following:<br><br>1. Find given element in array<br><br>2. Find Max and Min element<br><br>3. Find frequency of given element in array<br><br>4. Find Average of elements in Array. | [Q04.c](Q04.c) | https://www.youtube.com/watch?v=PTL8rjAIgoo&list=PLlShVH4JA0ouBb_iMZPPNOcfyX2JtPQ5L&index=7&pp=iAQB |
+| 5 | Write a C program for employee salary calculation given, Basic, H.R.A. 20 % of Basic and D.A. 150 % of Basic. | [Q05.c](Q05.c) | https://www.youtube.com/watch?v=rPbegeSw7pk&list=PLlShVH4JA0ouBb_iMZPPNOcfyX2JtPQ5L&index=3&pp=iAQB |
+| 6 | To accept a student's marks for five subjects, compute his/her result. Student is passing if he/she scores marks equal to and above 40 in each course. If student scores aggregate greater than 75%, then the grade is distinguished. If aggregate is 60>= and <75 then theGrade of first division. If aggregate is 50>= and <60, then the grade is second division. If aggregate is 40>= and <50, then the grade is third division. |  |  |
+| 7 | To accept two numbers from user and compute smallest divisor and Greatest Common Divisor of these two numbers. | [Q07.c](Q07.c) | https://www.youtube.com/watch?v=3M1KqLFl6CM&list=PLlShVH4JA0ouBb_iMZPPNOcfyX2JtPQ5L&index=4&pp=iAQB |
+| 8 | Write a C program that accepts a string from the user and performs the following string operations<br><br>i. Calculate length of string<br><br>ii. String reversal<br><br>iii. Equality check of twoStrings<br><br>iv. Check palindrome<br><br>v. Check substring |  |  |
+| 9 | Create Structure EMPLOYEE for storing details (Name, Designation, gender, Date of Joining and Salary), and store the data and update the data in structure.10 Create class STORE to keep track of Products (Product Code, Name and price). Display menu of all products to users. Generate bills as per order. |  |  |
+| 10 | Calculator with basic functions. Add more functionality such as graphic user interface and Complex calculations. |  |  |
+|  | Mini Project |  |  |
+| 11 | Program that simulates rolling dice. When the program runs, it will randomly choose a number between 1 and 6 (Or other integer you prefer). Print that number. Request user to roll again. Set the min and max number that dice can show. For the average die, that means a minimum of 1 and a maximum of 6. |  |  |
+| 12 | Guess Number: Randomly generate a number unknown to the user. The user needs to guess what that number is. If the user’s guess is wrong, the program should return some sort of indication as to how wrong (e.g. the number is too high or too low). If the user guesses correctly, a positive indication should appear. Write functions to check if the user input is an actual number, to see the difference between the inputted number and the randomly generated numbers, and to then compare the numbers. |  |  |
+| 13 | To calculate the salary of an employee given his basic pay (take as input from user). Calculate gross salary of employee. Let HRA be 10 % of basic pay and TA be 5% of basic pay. Let employees pay professional tax as 2% of total salary. Calculate net salary payable after deductions. |  |  |
