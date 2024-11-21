@@ -7,25 +7,27 @@ Youtube FPL Lab Playlist Link: https://youtube.com/playlist?list=PLlShVH4JA0ouBb
 Problem Statement:
 Q01.c
 To accept the number and Compute
-a) square root of number, 
-b) Square of number, 
-c) Cube of number 
-d) check for prime, 
-e) factorial of number 
+a) square root of number,
+b) Square of number,
+c) Cube of number
+d) check for prime,
+e) factorial of number
 f) prime factors.
 
 Explaination Video Link: https://www.youtube.com/watch?v=rpDU2Et1ByE&list=PLlShVH4JA0ouBb_iMZPPNOcfyX2JtPQ5L&index=5&pp=iAQB
 */
 
+#include <stdio.h>
+#include <math.h>
+#include <stdbool.h>
 
-#include<stdio.h>
-#include<math.h>
-#include<stdbool.h>
-
-bool checkPrime(int num){
+bool checkPrime(int num)
+{
     bool isPrime = true;
-    for(int i = 2; i < num; i++){
-        if(num%i == 0){
+    for (int i = 2; i < num; i++)
+    {
+        if (num % i == 0)
+        {
             isPrime = false;
             break;
         }
@@ -40,26 +42,32 @@ n! = n * (n-1)!
 
 */
 
-long long fact(int n){
+long long fact(int n)
+{
 
-    if(n == 1 || n == 0) {
+    if (n == 1 || n == 0)
+    {
         return 1;
     }
 
-    return n * 1LL * fact(n-1);
+    return n * 1LL * fact(n - 1);
 }
 
-void findPrimeFactor(int num){
+void findPrimeFactor(int num)
+{
     printf("Prime factor for %i is", num);
-    for(int i = 2; i <= num; i++ ){
-        if(num%i == 0 && checkPrime(i)){
+    for (int i = 2; i <= num; i++)
+    {
+        if (num % i == 0 && checkPrime(i))
+        {
             printf(", %i", i);
         }
     }
     printf(".\n");
 }
 
-int main(){
+int main()
+{
 
     float num;
 
@@ -77,8 +85,8 @@ int main(){
     // }
 
     printf("Square root of the number %.2f is %.2f.\n", num, sqrt(num));
-    printf("Square of the number %.2f is %.2f.\n",num, pow(num, 2));
-    printf("Cube of the number %.2f is %.2f.\n",num, pow(num, 3));
+    printf("Square of the number %.2f is %.2f.\n", num, pow(num, 2));
+    printf("Cube of the number %.2f is %.2f.\n", num, pow(num, 3));
 
     int intNum = (int)num;
 
@@ -92,7 +100,7 @@ int main(){
 
     printf("%i is %sa prime number.\n", (int)num, checkPrime((int)num) ? "" : "not ");
 
-    printf("Factorial of %i is %lli.\n",intNum, fact(intNum));
+    printf("Factorial of %i is %lli.\n", intNum, fact(intNum));
 
     findPrimeFactor(intNum);
 

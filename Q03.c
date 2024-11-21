@@ -11,9 +11,10 @@ To accept an object mass in kilograms and velocity in meters per second and disp
 Explaination Video Link: https://www.youtube.com/watch?v=CZFSSLdBKGE&list=PLlShVH4JA0ouBb_iMZPPNOcfyX2JtPQ5L&index=2&pp=iAQB
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
 
     float mass, velocity;
 

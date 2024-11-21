@@ -11,36 +11,45 @@ To accept from user the number of Fibonacci numbers to be generated and print th
 Explaination Video Link: https://www.youtube.com/watch?v=uQKXGEhtRy4&list=PLlShVH4JA0ouBb_iMZPPNOcfyX2JtPQ5L&index=6&pp=iAQB
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
-int fibo(int n){
+int fibo(int n)
+{
 
-    if(n <= 0){
+    if (n <= 0)
+    {
         return 0;
     }
 
-    if(n == 1){
+    if (n == 1)
+    {
         return 1;
     }
 
-    int returnValue = fibo(n-1) + fibo(n-2);
+    int returnValue = fibo(n - 1) + fibo(n - 2);
     // printf("%i ,", returnValue);
     return returnValue;
 }
 
-void printFibo(int n){
-    if(n < 0){
+void printFibo(int n)
+{
+    if (n < 0)
+    {
         printf("Can't print %i Fibonacci Numbers.\n", n);
         return;
     }
     printf("%i Fibonacci Numbers are: ", n);
-    
+
     long long first = 0, second = 1;
-    if(n == 1) {
+    if (n == 1)
+    {
         printf("%lli", first);
-    }else{
+    }
+    else
+    {
         printf("%lli, %lli", first, second);
-        for(int i = 0; i <= n-2; i++){
+        for (int i = 0; i <= n - 2; i++)
+        {
             long long next = first + second;
             printf(", %lli", next);
             first = second;
@@ -50,7 +59,8 @@ void printFibo(int n){
     printf(".\n");
 }
 
-int main(){
+int main()
+{
 
     int num;
     printf("Enter a number: ");

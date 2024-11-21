@@ -11,9 +11,10 @@ Write a C program for employee salary calculation given, Basic, H.R.A. 20 % of B
 Explaination Video Link: https://www.youtube.com/watch?v=rPbegeSw7pk&list=PLlShVH4JA0ouBb_iMZPPNOcfyX2JtPQ5L&index=3&pp=iAQB
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
 
     int basicPay;
     printf("Enter your Basic Salary: ");
